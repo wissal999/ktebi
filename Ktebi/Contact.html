@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site de vente</title>
+	<link href="Style.css" rel="stylesheet" media="all" type="text/css"> 
+</head>
+<body>
+
+	<header>
+	<nav id="Nav">
+		
+				<img class="Logo"src="Images/Logo.png" alt="Logo">
+				<p class="text_Logo"> Ktebi</p>
+
+		<ul >
+			
+			<a href="Contact.html"><li>Contact</li></a>
+			<a href="livres.html"><li>Livres</li></a>
+			<a href="Acceuil.html"><li>Acceuil</li></a>
+		</ul>
+
+	</nav> 
+	</header>
+	
+		<div id="container__form">
+  <div class="container">
+    <div class="row">
+        <div id="Contact">                        
+          <h1>Contact</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <form  class="form" action="#" method="POST" role="form">
+                <div>
+                    <label class="labelForm" for="nom">Nom</label>
+                    <br>
+                    <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom" tabindex="1" required>
+                </div>                            
+                <div >
+                    <label class="labelForm" for="email">E-mail</label>
+                    <br>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="E-mail"  required>
+                </div>                            
+                <div >
+                    <label class="labelForm" for="sujet">Sujet</label>
+                    <br>
+                    <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet" >
+                </div>                            
+                <div >
+                    <label class="labelForm" for="message">Message</label>
+                    <br>
+                    <textarea rows="5" cols="50" name="message" class="form-control" id="message" placeholder="Message..." required></textarea>                                 
+                </div>
+                <div class="text-center">
+                    <button type="submit" id="btnSubmit" >Envoyer</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+  </div>
+ </div>
+	
+	<footer class="copyright">Copyright © wissal All rights reserved</footer>
+</body>
+</html>
